@@ -1,0 +1,118 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(68, 12, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0px;
+  color: Maroon;
+}
+
+
+section {
+  background: #545454;
+  margin: 10px;
+  padding: 20px;
+  border: 1px dotted maroon;
+  width: 300px;
+}
+
+article {
+  background: #3c3c3c;
+  margin: 10px;
+  padding: 20px;
+  border: 1px dotted maroon;
+  width: 200px;
+}
+
+.container {
+
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+
+
+main {
+  margin: 10px;
+}
+
+aside {
+  padding: .5rem;
+  margin: .5rem;
+  border: 1px dotted maroon; 
+  color: #4c1a00;
+}
+
+
+
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+nav {
+  background-color: #626262;
+  margin: 10px 10px 0px 10px;
+}
+
+nav ul {
+  margin: 0px;
+  list-style-type: none;
+  padding: 5px 0px 5px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  display: block;
+  border: 1px solid brown;
+  border-radius: .5em;
+  padding: .5em 1em;
+  margin: .5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #e2c2c2;
+  text-transform: uppercase;
+}
+
+li.selected {
+  background-color: hsl(40, 29%, 70%);
+}
+
+
+a:link,
+a:visited {
+  color: brown;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover,
+a:active {
+  color: darksalmon;
+  text-decoration: none;
+}
+
+footer {
+  background-color:maroon;
+  text-align: center;
+  padding: 15px;
+  margin: 0px 10px 10px 10px;
+  font-weight: bold;
+  color: #350202;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 0;
+}
+
+#hobby
+{
+  color: brown;}
